@@ -1,0 +1,17 @@
+body {
+    background-color: #03001C;
+}
+
+img {
+    margin: 300px auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: 700ms;
+    filter: drop-shadow(0 0 5px rgb(182, 234, 218));
+}
+
+img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px rgb(91, 143, 185)) drop-shadow(5px 5px 15px rgb(255, 255, 255));
+}
